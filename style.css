@@ -196,3 +196,91 @@ nav li:hover {
     border: none;
     color: var(--blue-color);
   }
+
+  .container-three {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+  .image3 {
+    width: 50%;
+    height: 100vh;
+  }
+
+  .info-text {
+    width: 50%;
+    background-color: #161C2E;
+    color: white;
+    
+  }
+
+
+  .text-info {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 0px 45px;
+    
+  }
+  .grid {
+    padding: 0px 50px 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 250px));
+    gap: 20px;
+}
+  .grid div {
+    width: 210px;
+  }
+  .grid span {
+    color: silver;
+  }
+  .image4 {
+    height: 100vh;
+    width: 50%;
+  }
+  #info-image {
+    width: 100%;
+  }
+
+  #btn-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 25px;
+    margin: 50px;
+    background-color: transparent;
+    width: 200px;
+    color: white;
+    border: 1px solid silver;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #btn-4:hover {
+    background-color: var(--yellow-color);
+    border: none;
+    color: var(--blue-color);
+  }
+.review-container {
+    height: 70vh;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.review {
+    padding: 50px;
+    display: flex;
+    font-size: 20px;
+}
+.review svg {
+    width: 140px;
+    margin: 15px;
+    fill: var(--blue-color);
+}
+  footer {
+    height: 60vh;
+    background-color: var(--yellow-color);
+  }
