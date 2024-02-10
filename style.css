@@ -1,11 +1,14 @@
 :root {
     --white-color: white;
+    --yellow-color: #F9C500;
+    --blue-color: #161C2E;
   }
 
 
 body, html {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .main-pic {
@@ -77,8 +80,119 @@ nav li:hover {
     margin: 40px;
     color: var(--white-color);
     font-size: 20px;
+    cursor: pointer;
 }
 .title button:hover {
     background-color: white;
-    color: rgb(243, 223, 45);
+    color: var(--yellow-color);
 }
+
+.second-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    background-color: rgb(235, 220, 220);
+    font-size: 20px;
+}
+.second-title h1 {
+    padding: 10px;
+    box-shadow: inset 0 0 20px gray;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+
+  .image {
+    width: 50%;
+    height: 100vh;
+  }
+
+  .text-content {
+    width: 50%;
+    background-color: #161C2E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text-content h1 {
+    text-align: left;
+  }
+
+  .text {
+    padding: 70px;
+    width: 465px;
+  }
+
+  .text span {
+    color: silver;
+  }
+
+  img {
+    max-width: 100%;
+    height: 100vh;
+  }
+  #btn-1, #btn-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid silver;
+    color: silver;
+    cursor: pointer;
+  }
+
+  #btn-2 {
+    background-color: #F9C500;
+    width: 140px;
+    color: var(--blue-color);
+    font-size: 14px;
+    font-weight: 550;
+    border: none;
+  }
+  #btn-1:hover {
+    background-color: silver;
+    color: var(--blue-color);
+  }
+
+  #btn-2:hover {
+    background-color: silver;
+    color: var(--blue-color);
+  }
+
+  .container-two {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+
+  #btn-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 25px;
+    margin-top: 50px;
+    background-color: transparent;
+    width: 140px;
+    color: white;
+    border: 1px solid silver;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #btn-3:hover {
+    background-color: var(--yellow-color);
+    border: none;
+    color: var(--blue-color);
+  }
